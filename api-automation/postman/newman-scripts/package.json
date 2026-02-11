@@ -1,0 +1,27 @@
+{
+  "name": "postman-newman-automation",
+  "version": "1.0.0",
+  "description": "Newman automation scripts for Postman collections",
+  "main": "run-collections.js",
+  "scripts": {
+    "test": "newman run ../collections/*.json -e ../environments/staging.json",
+    "test:local": "newman run ../collections/*.json -e ../environments/local.json",
+    "test:staging": "newman run ../collections/*.json -e ../environments/staging.json", 
+    "test:ecommerce": "newman run ../collections/ecommerce-api.json -e ../environments/staging.json",
+    "test:auth": "newman run ../collections/authentication.json -e ../environments/staging.json",
+    "generate-reports": "newman run ../collections/*.json -e ../environments/staging.json --reporters html,json --reporter-html-export ../reports/api-report.html --reporter-json-export ../reports/api-results.json"
+  },
+  "keywords": [
+    "postman",
+    "newman",
+    "api-testing",
+    "automation",
+    "rest-api"
+  ],
+  "dependencies": {
+    "newman": "^6.0.0"
+  },
+  "devDependencies": {
+    "newman-reporter-html": "^1.0.5"
+  }
+}

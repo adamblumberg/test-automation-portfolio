@@ -1,0 +1,22 @@
+{
+  "name": "cypress-playwright-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:playwright": "playwright test",
+    "test:playwright:ui": "playwright test --ui",
+    "test:playwright:headed": "playwright test --headed",
+    "test:cypress": "cypress run",
+    "test:cypress:open": "cypress open",
+    "test:all": "npm run test:cypress && npm run test:playwright"
+  },
+  "keywords": ["e2e", "testing", "cypress", "playwright"],
+  "author": "",
+  "license": "ISC",
+  "description": "End-to-end testing suite with both Cypress and Playwright",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1",
+    "cypress": "^13.0.0"
+  }
+}

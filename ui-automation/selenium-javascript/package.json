@@ -1,0 +1,32 @@
+{
+  "name": "selenium-js-framework",
+  "version": "1.0.0",
+  "description": "Selenium WebDriver framework using JavaScript with same test cases as Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js --timeout 30000",
+    "test:ecommerce": "mocha tests/ecommerce/*.test.js --timeout 30000",
+    "test:heroku": "mocha tests/heroku/*.test.js --timeout 30000",
+    "test:chrome": "BROWSER=chrome npm test",
+    "test:firefox": "BROWSER=firefox npm test",
+    "test:edge": "BROWSER=edge npm test"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "automation",
+    "testing",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^4.15.0",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.10",
+    "webdriver-manager": "^12.1.8"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}

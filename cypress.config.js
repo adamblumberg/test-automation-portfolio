@@ -5,6 +5,10 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    specPattern: 'cypress/e2e/**/*.cy.js'
+    specPattern: 'ui-automation/cypress/e2e/**/*.cy.js',
+    screenshotsFolder: 'reports/screenshots/cypress',
+    videosFolder: 'reports/cypress-reports/videos',
+    screenshotOnRunFailure: true,
+    video: true
   },
 });

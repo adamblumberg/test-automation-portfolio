@@ -1,29 +1,14 @@
 {
   "name": "test-automation-portfolio",
   "version": "1.0.0",
-  "description": "Multi-framework test automation portfolio showcasing UI and API testing capabilities",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test:cypress": "cd ui-automation/cypress && npx cypress run",
-    "test:playwright": "cd ui-automation/playwright && npx playwright test",
-    "test:selenium-js": "cd ui-automation/selenium-javascript && npm test",
-    "test:all-ui": "npm run test:cypress && npm run test:playwright && npm run test:selenium-js",
-    "install:all": "npm install && cd ui-automation/selenium-javascript && npm install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "test-automation",
-    "cypress",
-    "playwright", 
-    "selenium",
-    "webdriver",
-    "api-testing",
-    "postman",
-    "javascript",
-    "java",
-    "qa",
-    "testing"
-  ],
+  "keywords": [],
   "devDependencies": {
+    "@playwright/mcp": "^0.0.64",
     "cypress": "^13.13.2"
   },
   "dependencies": {
@@ -189,11 +174,6 @@
     "wrappy": "^1.0.2",
     "yauzl": "^2.10.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }

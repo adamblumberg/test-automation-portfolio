@@ -1,0 +1,1075 @@
+# Page snapshot
+
+```yaml
+- heading "Top categories close" [level=5]:
+  - text: Top categories
+  - link "close":
+    - /url: "#mz-component-1626147655"
+    - text: 
+- navigation:
+  - list:
+    - listitem:
+      - link "Components":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=25
+        - img
+        - text: Components
+    - listitem:
+      - link "Cameras":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=33
+        - img
+        - text: Cameras
+    - listitem:
+      - link "Phone, Tablets & Ipod":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=57
+        - img
+        - text: Phone, Tablets & Ipod
+    - listitem:
+      - link "Software":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=17
+        - img
+        - text: Software
+    - listitem:
+      - link "MP3 Players":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=34
+        - img
+        - text: MP3 Players
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=18
+        - img
+        - text: Laptops & Notebooks
+    - listitem:
+      - link "Desktops and Monitors":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=28
+        - img
+        - text: Desktops and Monitors
+    - listitem:
+      - link "Printers & Scanners":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=30
+        - img
+        - text: Printers & Scanners
+    - listitem:
+      - link "Mice and Trackballs":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=29
+        - img
+        - text: Mice and Trackballs
+    - listitem:
+      - link "Fashion and Accessories":
+        - /url: ""
+        - img
+        - text: Fashion and Accessories
+    - listitem:
+      - link "Beauty and Saloon":
+        - /url: ""
+        - img
+        - text: Beauty and Saloon
+    - listitem:
+      - link "Autoparts and Accessories":
+        - /url: ""
+        - img
+        - text: Autoparts and Accessories
+    - listitem:
+      - link "Washing machine":
+        - /url: ""
+        - img
+        - text: Washing machine
+    - listitem:
+      - link "Gaming consoles":
+        - /url: ""
+        - img
+        - text: Gaming consoles
+    - listitem:
+      - link "Air conditioner":
+        - /url: ""
+        - img
+        - text: Air conditioner
+    - listitem:
+      - link "Web Cameras":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=32
+        - img
+        - text: Web Cameras
+- heading "Quick Links close" [level=5]:
+  - text: Quick Links
+  - link "close":
+    - /url: "#mz-component-162614767"
+    - text: 
+- navigation:
+  - list:
+    - listitem:
+      - link " Special Hot":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/special
+    - listitem:
+      - link " Wishlist":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/wishlist
+    - listitem:
+      - link " Compare":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/compare
+    - listitem:
+      - link " My account":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+    - listitem:
+      - link " Blog":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/home
+    - listitem:
+      - link " Tracking":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=information/tracking
+    - listitem:
+      - link " Contact us":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=information/contact
+- separator
+- paragraph: Place here any module, widget, design or HTML. for example menu, categories
+- heading "Cart close" [level=5]:
+  - text: Cart
+  - link "close":
+    - /url: "#cart-total-drawer"
+    - text: 
+- paragraph: Your shopping cart is empty!
+- table:
+  - rowgroup:
+    - 'row "Sub-Total: $0.00"':
+      - cell "Sub-Total:"
+      - cell "$0.00":
+        - strong: $0.00
+    - 'row "Total: $0.00"':
+      - cell "Total:"
+      - cell "$0.00":
+        - strong: $0.00
+- button " Edit cart"
+- button " Checkout"
+- banner:
+  - button ""
+  - figure:
+    - link "Poco Electro":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+      - img "Poco Electro"
+  - button "All Categories"
+  - textbox "Search For Products"
+  - button "Search"
+  - link "Compare":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/compare
+    - img
+  - link "Wishlist":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/wishlist
+    - img
+  - button "0":
+    - img
+    - text: "0"
+  - button "Shop by Category":
+    - img
+    - text: Shop by Category
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+      - listitem:
+        - link "Special Hot":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/special
+      - listitem:
+        - link "Blog":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/home
+      - listitem:
+        - button "Mega Menu"
+      - listitem:
+        - button "AddOns Featured"
+      - listitem:
+        - button " My account"
+  - paragraph:
+    - strong: This is a dummy website for Web Automation Testing
+- list:
+  - listitem
+  - listitem
+  - listitem
+- link "Iphone 11 pro max":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=40
+  - img "Iphone 11 pro max"
+- img
+- heading "Upto 50% Off on Fully Automatic Top Load Washing Machine" [level=4]
+- paragraph: Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected.
+- link "SHOP NOW":
+  - /url: "#"
+- link "Lumix S Series From Panasonic":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/manufacturer/info&manufacturer_id=8
+  - img "Lumix S Series From Panasonic"
+- link "MPOW H12 RC Headphone":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=30
+  - img "MPOW H12 RC Headphone"
+- heading "Top Trending Categories" [level=3]
+- group "1 / 8":
+  - link:
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=20
+    - figure:
+      - img "Desktops"
+      - heading "Desktops" [level=4]
+- group "2 / 8":
+  - link:
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=18
+    - figure:
+      - img "Laptops"
+      - heading "Laptops" [level=4]
+- group "3 / 8":
+  - link:
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=25
+    - figure:
+      - img "Components"
+      - heading "Components" [level=4]
+- group "4 / 8":
+  - link:
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=57
+    - figure:
+      - img "Tablets"
+      - heading "Tablets" [level=4]
+- group "5 / 8":
+  - link:
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=17
+    - figure:
+      - img "Software"
+      - heading "Software" [level=4]
+- group "6 / 8":
+  - link:
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=24
+    - figure:
+      - img "Phones & PDAs"
+      - heading "Phones & PDAs" [level=4]
+- group "7 / 8":
+  - link:
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=33
+    - figure:
+      - img "Cameras"
+      - heading "Cameras" [level=4]
+- group "8 / 8":
+  - link:
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=34
+    - figure:
+      - img "MP3 Players"
+      - heading "MP3 Players" [level=4]
+- link "HP25 headphone":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=47
+  - img "HP25 headphone"
+- heading "Top Products" [level=3]
+- group "1 / 10":
+  - link "iMac iMac iMac iMac":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=107
+    - img "iMac"
+    - list:
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iMac" [level=4]:
+    - link "iMac":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=107
+  - text: $170.00
+- group "2 / 10":
+  - link "iMac iMac iMac iMac":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=106
+    - img "iMac"
+    - list:
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iMac" [level=4]:
+    - link "iMac":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=106
+  - text: $170.00
+- group "3 / 10":
+  - link "iMac iMac iMac iMac":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=105
+    - img "iMac"
+    - list:
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iMac" [level=4]:
+    - link "iMac":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=105
+  - text: $170.00
+- group "4 / 10":
+  - link "iMac iMac iMac iMac":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=104
+    - img "iMac"
+    - list:
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iMac" [level=4]:
+    - link "iMac":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=104
+  - text: $170.00
+- group "5 / 10":
+  - link "HTC Touch HD HTC Touch HD HTC Touch HD HTC Touch HD":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=103
+    - img "HTC Touch HD"
+    - list:
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HTC Touch HD" [level=4]:
+    - link "HTC Touch HD":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=103
+  - text: $146.00
+- group "6 / 10":
+  - link "HTC Touch HD HTC Touch HD HTC Touch HD HTC Touch HD":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=102
+    - img "HTC Touch HD"
+    - list:
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HTC Touch HD" [level=4]:
+    - link "HTC Touch HD":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=102
+  - text: $146.00
+- group "7 / 10":
+  - link "HTC Touch HD HTC Touch HD HTC Touch HD HTC Touch HD":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=101
+    - img "HTC Touch HD"
+    - list:
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HTC Touch HD" [level=4]:
+    - link "HTC Touch HD":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=101
+  - text: $146.00
+- group "8 / 10":
+  - link "HTC Touch HD HTC Touch HD HTC Touch HD HTC Touch HD":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=100
+    - img "HTC Touch HD"
+    - list:
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HTC Touch HD" [level=4]:
+    - link "HTC Touch HD":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=100
+  - text: $146.00
+- group "9 / 10":
+  - link "HP LP3065 HP LP3065 HP LP3065 HP LP3065":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=99
+    - img "HP LP3065"
+    - list:
+      - listitem:
+        - img "HP LP3065"
+      - listitem:
+        - img "HP LP3065"
+      - listitem:
+        - img "HP LP3065"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HP LP3065" [level=4]:
+    - link "HP LP3065":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=99
+  - text: $122.00
+- group "10 / 10":
+  - link "HP LP3065 HP LP3065 HP LP3065 HP LP3065":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=98
+    - img "HP LP3065"
+    - list:
+      - listitem:
+        - img "HP LP3065"
+      - listitem:
+        - img "HP LP3065"
+      - listitem:
+        - img "HP LP3065"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HP LP3065" [level=4]:
+    - link "HP LP3065":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=98
+  - text: $122.00
+- img
+- img
+- heading "Latest Range of Earphones" [level=2]
+- text: Save 10% Off
+- link "Shop Now":
+  - /url: "#"
+- heading "Upto 30% Off on Popular Smartphones + Exchange Offers" [level=4]:
+  - img
+  - text: Upto 30% Off on Popular Smartphones + Exchange Offers
+- link "SHOP NOW":
+  - /url: "#"
+- heading "Top Collection" [level=3]
+- list:
+  - listitem:
+    - link "Popular":
+      - /url: "#mz-product-tab-39218404-0"
+  - listitem:
+    - link "Latest":
+      - /url: "#mz-product-tab-39218404-1"
+  - listitem:
+    - link "Best seller":
+      - /url: "#mz-product-tab-39218404-2"
+- img
+- img
+- group "1 / 24":
+  - link "Canon EOS 5D Canon EOS 5D Canon EOS 5D Canon EOS 5D":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=30
+    - img "Canon EOS 5D"
+    - list:
+      - listitem:
+        - img "Canon EOS 5D"
+      - listitem:
+        - img "Canon EOS 5D"
+      - listitem:
+        - img "Canon EOS 5D"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Canon EOS 5D" [level=4]:
+    - link "Canon EOS 5D":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=30
+  - text: $134.00
+- group "2 / 24":
+  - link "HTC Touch HD HTC Touch HD HTC Touch HD HTC Touch HD":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=28
+    - img "HTC Touch HD"
+    - list:
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HTC Touch HD" [level=4]:
+    - link "HTC Touch HD":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=28
+  - text: $146.00
+- group "3 / 24":
+  - link "Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\"":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=42
+    - img "Apple Cinema 30\""
+    - list:
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Apple Cinema 30\"" [level=4]:
+    - link "Apple Cinema 30\"":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=42
+  - text: $122.00
+- group "4 / 24":
+  - link "iPod Nano iPod Nano iPod Nano iPod Nano":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=36
+    - img "iPod Nano"
+    - list:
+      - listitem:
+        - img "iPod Nano"
+      - listitem:
+        - img "iPod Nano"
+      - listitem:
+        - img "iPod Nano"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iPod Nano" [level=4]:
+    - link "iPod Nano":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=36
+  - text: $122.00
+- group "5 / 24":
+  - link "iPhone iPhone iPhone iPhone":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=40
+    - img "iPhone"
+    - list:
+      - listitem:
+        - img "iPhone"
+      - listitem:
+        - img "iPhone"
+      - listitem:
+        - img "iPhone"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iPhone" [level=4]:
+    - link "iPhone":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=40
+  - text: $123.20
+- group "6 / 24":
+  - link "Palm Treo Pro Palm Treo Pro Palm Treo Pro Palm Treo Pro":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=29
+    - img "Palm Treo Pro"
+    - list:
+      - listitem:
+        - img "Palm Treo Pro"
+      - listitem:
+        - img "Palm Treo Pro"
+      - listitem:
+        - img "Palm Treo Pro"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Palm Treo Pro" [level=4]:
+    - link "Palm Treo Pro":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=29
+  - text: $337.99
+- group "7 / 24":
+  - link "iPod Touch iPod Touch iPod Touch iPod Touch":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=32
+    - img "iPod Touch"
+    - list:
+      - listitem:
+        - img "iPod Touch"
+      - listitem:
+        - img "iPod Touch"
+      - listitem:
+        - img "iPod Touch"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iPod Touch" [level=4]:
+    - link "iPod Touch":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=32
+  - text: $194.00
+- group "8 / 24":
+  - link "iPod Shuffle iPod Shuffle iPod Shuffle iPod Shuffle":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=34
+    - img "iPod Shuffle"
+    - list:
+      - listitem:
+        - img "iPod Shuffle"
+      - listitem:
+        - img "iPod Shuffle"
+      - listitem:
+        - img "iPod Shuffle"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iPod Shuffle" [level=4]:
+    - link "iPod Shuffle":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=34
+  - text: $182.00
+- group "9 / 24":
+  - link "HP LP3065 HP LP3065 HP LP3065 HP LP3065":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=47
+    - img "HP LP3065"
+    - list:
+      - listitem:
+        - img "HP LP3065"
+      - listitem:
+        - img "HP LP3065"
+      - listitem:
+        - img "HP LP3065"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HP LP3065" [level=4]:
+    - link "HP LP3065":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=47
+  - text: $122.00
+- group "10 / 24":
+  - link "MacBook Pro MacBook Pro MacBook Pro MacBook Pro":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=45
+    - img "MacBook Pro"
+    - list:
+      - listitem:
+        - img "MacBook Pro"
+      - listitem:
+        - img "MacBook Pro"
+      - listitem:
+        - img "MacBook Pro"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "MacBook Pro" [level=4]:
+    - link "MacBook Pro":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=45
+  - text: $2,000.00
+- group "11 / 24":
+  - link "Nikon D300 Nikon D300 Nikon D300 Nikon D300":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=31
+    - img "Nikon D300"
+    - list:
+      - listitem:
+        - img "Nikon D300"
+      - listitem:
+        - img "Nikon D300"
+      - listitem:
+        - img "Nikon D300"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Nikon D300" [level=4]:
+    - link "Nikon D300":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=31
+  - text: $98.00
+- group "12 / 24":
+  - link "iMac iMac iMac iMac":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=41
+    - img "iMac"
+    - list:
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iMac" [level=4]:
+    - link "iMac":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=41
+  - text: $170.00
+- group "13 / 24":
+  - link "Samsung SyncMaster 941BW Samsung SyncMaster 941BW Samsung SyncMaster 941BW Samsung SyncMaster 941BW":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=33
+    - img "Samsung SyncMaster 941BW"
+    - list:
+      - listitem:
+        - img "Samsung SyncMaster 941BW"
+      - listitem:
+        - img "Samsung SyncMaster 941BW"
+      - listitem:
+        - img "Samsung SyncMaster 941BW"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Samsung SyncMaster 941BW" [level=4]:
+    - link "Samsung SyncMaster 941BW":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=33
+  - text: $242.00
+- group "14 / 24":
+  - link "MacBook MacBook MacBook MacBook":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=43
+    - img "MacBook"
+    - list:
+      - listitem:
+        - img "MacBook"
+      - listitem:
+        - img "MacBook"
+      - listitem:
+        - img "MacBook"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "MacBook" [level=4]:
+    - link "MacBook":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=43
+  - text: $602.00
+- group "15 / 24":
+  - link "HTC Touch HD HTC Touch HD HTC Touch HD HTC Touch HD":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=100
+    - img "HTC Touch HD"
+    - list:
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+      - listitem:
+        - img "HTC Touch HD"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "HTC Touch HD" [level=4]:
+    - link "HTC Touch HD":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=100
+  - text: $146.00
+- group "16 / 24":
+  - link "MacBook Air MacBook Air MacBook Air MacBook Air":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=44
+    - img "MacBook Air"
+    - list:
+      - listitem:
+        - img "MacBook Air"
+      - listitem:
+        - img "MacBook Air"
+      - listitem:
+        - img "MacBook Air"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "MacBook Air" [level=4]:
+    - link "MacBook Air":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=44
+  - text: $1,202.00
+- group "17 / 24":
+  - link "Samsung Galaxy Tab 10.1 Samsung Galaxy Tab 10.1 Samsung Galaxy Tab 10.1 Samsung Galaxy Tab 10.1":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=49
+    - img "Samsung Galaxy Tab 10.1"
+    - list:
+      - listitem:
+        - img "Samsung Galaxy Tab 10.1"
+      - listitem:
+        - img "Samsung Galaxy Tab 10.1"
+      - listitem:
+        - img "Samsung Galaxy Tab 10.1"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Samsung Galaxy Tab 10.1" [level=4]:
+    - link "Samsung Galaxy Tab 10.1":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=49
+  - text: $241.99
+- group "18 / 24":
+  - link "Sony VAIO Sony VAIO Sony VAIO Sony VAIO":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=46
+    - img "Sony VAIO"
+    - list:
+      - listitem:
+        - img "Sony VAIO"
+      - listitem:
+        - img "Sony VAIO"
+      - listitem:
+        - img "Sony VAIO"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Sony VAIO" [level=4]:
+    - link "Sony VAIO":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=46
+  - text: $1,202.00
+- group "19 / 24":
+  - link "iPod Classic iPod Classic iPod Classic iPod Classic":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=48
+    - img "iPod Classic"
+    - list:
+      - listitem:
+        - img "iPod Classic"
+      - listitem:
+        - img "iPod Classic"
+      - listitem:
+        - img "iPod Classic"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iPod Classic" [level=4]:
+    - link "iPod Classic":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=48
+  - text: $122.00
+- group "20 / 24":
+  - link "iMac iMac iMac iMac":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=107
+    - img "iMac"
+    - list:
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+      - listitem:
+        - img "iMac"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "iMac" [level=4]:
+    - link "iMac":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=107
+  - text: $170.00
+- group "21 / 24":
+  - link "Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\"":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=50
+    - img "Apple Cinema 30\""
+    - list:
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Apple Cinema 30\"" [level=4]:
+    - link "Apple Cinema 30\"":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=50
+  - text: $122.00
+- group "22 / 24":
+  - link "Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\"":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=90
+    - img "Apple Cinema 30\""
+    - list:
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Apple Cinema 30\"" [level=4]:
+    - link "Apple Cinema 30\"":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=90
+  - text: $122.00
+- group "23 / 24":
+  - link "Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\"":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=88
+    - img "Apple Cinema 30\""
+    - list:
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Apple Cinema 30\"" [level=4]:
+    - link "Apple Cinema 30\"":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=88
+  - text: $122.00
+- group "24 / 24":
+  - link "Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\" Apple Cinema 30\"":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=89
+    - img "Apple Cinema 30\""
+    - list:
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+      - listitem:
+        - img "Apple Cinema 30\""
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Apple Cinema 30\"" [level=4]:
+    - link "Apple Cinema 30\"":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=89
+  - text: $122.00
+- link "Apple Ipad Pro":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=32
+  - img "Apple Ipad Pro"
+- heading "Under @99" [level=3]
+- group "1 / 2":
+  - link "Nikon D300 Nikon D300 Nikon D300 Nikon D300":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=63
+    - img "Nikon D300"
+    - list:
+      - listitem:
+        - img "Nikon D300"
+      - listitem:
+        - img "Nikon D300"
+      - listitem:
+        - img "Nikon D300"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Nikon D300" [level=4]:
+    - link "Nikon D300":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=63
+  - text: $98.00
+- group "2 / 2":
+  - link "Nikon D300 Nikon D300 Nikon D300 Nikon D300":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=31
+    - img "Nikon D300"
+    - list:
+      - listitem:
+        - img "Nikon D300"
+      - listitem:
+        - img "Nikon D300"
+      - listitem:
+        - img "Nikon D300"
+  - button ""
+  - button ""
+  - button ""
+  - button ""
+  - heading "Nikon D300" [level=4]:
+    - link "Nikon D300":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=31
+  - text: $98.00
+- heading "From The Blog" [level=3]
+- group "1 / 10":
+  - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=37
+    - img "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus"
+  - text: 
+  - link "Mark Jecno":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=3
+  - text: "|  1352 comments |  33261 25 Feb 2019"
+  - heading "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus" [level=4]:
+    - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=37
+- group "2 / 10":
+  - link "eget nunc lobortis mattis aliquam faucibus purus in massa tempor":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=36
+    - img "eget nunc lobortis mattis aliquam faucibus purus in massa tempor"
+  - text: 
+  - link "Jolio Balia":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=2
+  - text: "|  68 comments |  28046 25 Feb 2019"
+  - heading "eget nunc lobortis mattis aliquam faucibus purus in massa tempor" [level=4]:
+    - link "eget nunc lobortis mattis aliquam faucibus purus in massa tempor":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=36
+- group "3 / 10":
+  - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=35
+    - img "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus"
+  - text: 
+  - link "Mark Jecno":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=3
+  - text: "|  56 comments |  9261 25 Feb 2019"
+  - heading "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus" [level=4]:
+    - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=35
+- group "4 / 10":
+  - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=33
+    - img "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus"
+  - text: 
+  - link "Mark Jecno":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=3
+  - text: "|  25 comments |  9048 25 Feb 2019"
+  - heading "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus" [level=4]:
+    - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=33
+- group "5 / 10":
+  - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=31
+    - img "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus"
+  - text: 
+  - link "Mark Jecno":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=3
+  - text: "|  127 comments |  9392 25 Feb 2019"
+  - heading "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus" [level=4]:
+    - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=31
+- group "6 / 10":
+  - link "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=30
+    - img "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+  - text: 
+  - link "Jolio Balia":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=2
+  - text: "|  80 comments |  8752 25 Feb 2019"
+  - heading "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" [level=4]:
+    - link "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=30
+- group "7 / 10":
+  - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=29
+    - img "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus"
+  - text: 
+  - link "Mark Jecno":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=3
+  - text: "|  2 comments |  9302 25 Feb 2019"
+  - heading "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus" [level=4]:
+    - link "amet volutpat consequat mauris nunc congue nisi vitae suscipit tellus":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=29
+- group "8 / 10":
+  - link "eget nunc lobortis mattis aliquam faucibus purus in massa tempor":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=24
+    - img "eget nunc lobortis mattis aliquam faucibus purus in massa tempor"
+  - text: 
+  - link "Jolio Balia":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=2
+  - text: "|  14 comments |  8406 25 Feb 2019"
+  - heading "eget nunc lobortis mattis aliquam faucibus purus in massa tempor" [level=4]:
+    - link "eget nunc lobortis mattis aliquam faucibus purus in massa tempor":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=24
+- group "9 / 10":
+  - link "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=22
+    - img "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
+  - text: 
+  - link "Jolio Balia":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=2
+  - text: "|  0 comments |  8566 25 Feb 2019"
+  - heading "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" [level=4]:
+    - link "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=22
+- group "10 / 10":
+  - link "eget nunc lobortis mattis aliquam faucibus purus in massa tempor":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=16
+    - img "eget nunc lobortis mattis aliquam faucibus purus in massa tempor"
+  - text: 
+  - link "Jolio Balia":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/author&author_id=2
+  - text: "|  0 comments |  8286 25 Feb 2019"
+  - heading "eget nunc lobortis mattis aliquam faucibus purus in massa tempor" [level=4]:
+    - link "eget nunc lobortis mattis aliquam faucibus purus in massa tempor":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=16
+- img
+- img
+- contentinfo:
+  - paragraph: © LambdaTest - Powered by OpenCart
+```

@@ -1,0 +1,234 @@
+# Page snapshot
+
+```yaml
+- heading "Top categories close" [level=5]:
+  - text: Top categories
+  - link "close":
+    - /url: "#mz-component-1626147655"
+    - text: 
+- navigation:
+  - list:
+    - listitem:
+      - link "Components":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=25
+        - img
+        - text: Components
+    - listitem:
+      - link "Cameras":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=33
+        - img
+        - text: Cameras
+    - listitem:
+      - link "Phone, Tablets & Ipod":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=57
+        - img
+        - text: Phone, Tablets & Ipod
+    - listitem:
+      - link "Software":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=17
+        - img
+        - text: Software
+    - listitem:
+      - link "MP3 Players":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=34
+        - img
+        - text: MP3 Players
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=18
+        - img
+        - text: Laptops & Notebooks
+    - listitem:
+      - link "Desktops and Monitors":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=28
+        - img
+        - text: Desktops and Monitors
+    - listitem:
+      - link "Printers & Scanners":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=30
+        - img
+        - text: Printers & Scanners
+    - listitem:
+      - link "Mice and Trackballs":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=29
+        - img
+        - text: Mice and Trackballs
+    - listitem:
+      - link "Fashion and Accessories":
+        - /url: ""
+        - img
+        - text: Fashion and Accessories
+    - listitem:
+      - link "Beauty and Saloon":
+        - /url: ""
+        - img
+        - text: Beauty and Saloon
+    - listitem:
+      - link "Autoparts and Accessories":
+        - /url: ""
+        - img
+        - text: Autoparts and Accessories
+    - listitem:
+      - link "Washing machine":
+        - /url: ""
+        - img
+        - text: Washing machine
+    - listitem:
+      - link "Gaming consoles":
+        - /url: ""
+        - img
+        - text: Gaming consoles
+    - listitem:
+      - link "Air conditioner":
+        - /url: ""
+        - img
+        - text: Air conditioner
+    - listitem:
+      - link "Web Cameras":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=32
+        - img
+        - text: Web Cameras
+- heading "Quick Links close" [level=5]:
+  - text: Quick Links
+  - link "close":
+    - /url: "#mz-component-162614767"
+    - text: 
+- navigation:
+  - list:
+    - listitem:
+      - link " Special Hot":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/special
+    - listitem:
+      - link " Wishlist":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/wishlist
+    - listitem:
+      - link " Compare":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/compare
+    - listitem:
+      - link " My account":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+    - listitem:
+      - link " Blog":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/home
+    - listitem:
+      - link " Tracking":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=information/tracking
+    - listitem:
+      - link " Contact us":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=information/contact
+- separator
+- paragraph: Place here any module, widget, design or HTML. for example menu, categories
+- heading "Cart close" [level=5]:
+  - text: Cart
+  - link "close":
+    - /url: "#cart-total-drawer"
+    - text: 
+- paragraph: Your shopping cart is empty!
+- table:
+  - rowgroup:
+    - 'row "Sub-Total: $0.00"':
+      - cell "Sub-Total:"
+      - cell "$0.00":
+        - strong: $0.00
+    - 'row "Total: $0.00"':
+      - cell "Total:"
+      - cell "$0.00":
+        - strong: $0.00
+- button " Edit cart"
+- button " Checkout"
+- banner:
+  - button ""
+  - figure:
+    - link "Poco Electro":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+      - img "Poco Electro"
+  - button "All Categories"
+  - textbox "Search For Products"
+  - button "Search"
+  - link "Compare":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/compare
+    - img
+  - link "Wishlist":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/wishlist
+    - img
+  - button "0":
+    - img
+    - text: "0"
+  - button "Shop by Category":
+    - img
+    - text: Shop by Category
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+      - listitem:
+        - link "Special Hot":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/special
+      - listitem:
+        - link "Blog":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/home
+      - listitem:
+        - button "Mega Menu"
+      - listitem:
+        - button "AddOns Featured"
+      - listitem:
+        - button " My account"
+  - paragraph:
+    - strong: This is a dummy website for Web Automation Testing
+- navigation "breadcrumb":
+  - list:
+    - listitem:
+      - link "":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+    - listitem:
+      - text: /
+      - link "Account":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+    - listitem: / Login
+- heading "New Customer" [level=2]
+- paragraph:
+  - strong: Register Account
+- paragraph: By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.
+- link "Continue":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+- heading "Returning Customer" [level=2]
+- paragraph:
+  - strong: I am a returning customer
+- text: E-Mail Address
+- textbox "E-Mail Address"
+- text: Password
+- textbox "Password"
+- link "Forgotten Password":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/forgotten
+- button "Login"
+- complementary:
+  - link " Login":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/login
+  - link " Register":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/register
+  - link " Forgotten Password":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/forgotten
+  - link " My Account":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+  - link " Address Book":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/address
+  - link " Wish List":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/wishlist
+  - link " Order History":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/order
+  - link " Downloads":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/download
+  - link " Recurring payments":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/recurring
+  - link " Reward Points":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/reward
+  - link " Returns":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/return
+  - link " Transactions":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/transaction
+  - link " Newsletter":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/newsletter
+- contentinfo:
+  - paragraph: © LambdaTest - Powered by OpenCart
+```

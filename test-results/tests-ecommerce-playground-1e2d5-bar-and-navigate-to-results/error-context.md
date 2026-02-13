@@ -1,0 +1,397 @@
+# Page snapshot
+
+```yaml
+- heading "Top categories close" [level=5]:
+  - text: Top categories
+  - link "close":
+    - /url: "#mz-component-1626147655"
+    - text: 
+- navigation:
+  - list:
+    - listitem:
+      - link "Components":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=25
+        - img
+        - text: Components
+    - listitem:
+      - link "Cameras":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=33
+        - img
+        - text: Cameras
+    - listitem:
+      - link "Phone, Tablets & Ipod":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=57
+        - img
+        - text: Phone, Tablets & Ipod
+    - listitem:
+      - link "Software":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=17
+        - img
+        - text: Software
+    - listitem:
+      - link "MP3 Players":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=34
+        - img
+        - text: MP3 Players
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=18
+        - img
+        - text: Laptops & Notebooks
+    - listitem:
+      - link "Desktops and Monitors":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=28
+        - img
+        - text: Desktops and Monitors
+    - listitem:
+      - link "Printers & Scanners":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=30
+        - img
+        - text: Printers & Scanners
+    - listitem:
+      - link "Mice and Trackballs":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=29
+        - img
+        - text: Mice and Trackballs
+    - listitem:
+      - link "Fashion and Accessories":
+        - /url: ""
+        - img
+        - text: Fashion and Accessories
+    - listitem:
+      - link "Beauty and Saloon":
+        - /url: ""
+        - img
+        - text: Beauty and Saloon
+    - listitem:
+      - link "Autoparts and Accessories":
+        - /url: ""
+        - img
+        - text: Autoparts and Accessories
+    - listitem:
+      - link "Washing machine":
+        - /url: ""
+        - img
+        - text: Washing machine
+    - listitem:
+      - link "Gaming consoles":
+        - /url: ""
+        - img
+        - text: Gaming consoles
+    - listitem:
+      - link "Air conditioner":
+        - /url: ""
+        - img
+        - text: Air conditioner
+    - listitem:
+      - link "Web Cameras":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=32
+        - img
+        - text: Web Cameras
+- heading "Quick Links close" [level=5]:
+  - text: Quick Links
+  - link "close":
+    - /url: "#mz-component-162614767"
+    - text: 
+- navigation:
+  - list:
+    - listitem:
+      - link " Special Hot":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/special
+    - listitem:
+      - link " Wishlist":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/wishlist
+    - listitem:
+      - link " Compare":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/compare
+    - listitem:
+      - link " My account":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/account
+    - listitem:
+      - link " Blog":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/home
+    - listitem:
+      - link " Tracking":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=information/tracking
+    - listitem:
+      - link " Contact us":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=information/contact
+- separator
+- paragraph: Place here any module, widget, design or HTML. for example menu, categories
+- heading "Cart close" [level=5]:
+  - text: Cart
+  - link "close":
+    - /url: "#cart-total-drawer"
+    - text: 
+- paragraph: Your shopping cart is empty!
+- table:
+  - rowgroup:
+    - 'row "Sub-Total: $0.00"':
+      - cell "Sub-Total:"
+      - cell "$0.00":
+        - strong: $0.00
+    - 'row "Total: $0.00"':
+      - cell "Total:"
+      - cell "$0.00":
+        - strong: $0.00
+- button " Edit cart"
+- button " Checkout"
+- heading "Filter" [level=4]
+- button ""
+- text: Price 
+- spinbutton "Minimum Price": "123"
+- text: to
+- spinbutton "Maximum Price": "123"
+- text: Manufacturer 
+- checkbox "Apple"
+- text: Apple 4 Search 
+- textbox "Search"
+- text: Color 
+- img "Blue"
+- text: Availability 
+- checkbox "In stock"
+- text: In stock 2
+- checkbox "Out Of Stock"
+- text: Out Of Stock 2 Discount 
+- radio "10% off or more" [disabled]
+- text: 10% off or more 0
+- radio "20% off or more" [disabled]
+- text: 20% off or more 0
+- radio "30% off or more" [disabled]
+- text: 30% off or more 0
+- radio "40% off or more" [disabled]
+- text: 40% off or more 0
+- radio "50% off or more" [disabled]
+- text: 50% off or more 0 Rating 
+- radio "     & up" [disabled]
+- text:      & up 0
+- radio "     & up" [disabled]
+- text:      & up 0
+- radio "     & up" [disabled]
+- text:      & up 0
+- radio "     & up" [disabled]
+- text:      & up 0
+- banner:
+  - button ""
+  - figure:
+    - link "Poco Electro":
+      - /url: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+      - img "Poco Electro"
+  - button "All Categories"
+  - textbox "Search For Products": iPhone
+  - button "Search"
+  - link "Compare":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/compare
+    - img
+  - link "Wishlist":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=account/wishlist
+    - img
+  - button "0":
+    - img
+    - text: "0"
+  - button "Shop by Category":
+    - img
+    - text: Shop by Category
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+      - listitem:
+        - link "Special Hot":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/special
+      - listitem:
+        - link "Blog":
+          - /url: https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/home
+      - listitem:
+        - button "Mega Menu"
+      - listitem:
+        - button "AddOns Featured"
+      - listitem:
+        - button " My account"
+  - paragraph:
+    - strong: This is a dummy website for Web Automation Testing
+- navigation "breadcrumb":
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: https://ecommerce-playground.lambdatest.io/index.php?route=common/home
+        - text: 
+    - listitem: / Search
+- heading "Search - iPhone" [level=1]
+- text: Search Criteria
+- textbox "Search Criteria": iPhone
+- combobox:
+  - option "All Categories" [selected]
+  - option "Desktops"
+  - option "PC"
+  - option "Mac"
+  - option "Laptops"
+  - option "Macs"
+  - option "Windows"
+  - option "Components"
+  - option "Mice and Trackballs"
+  - option "Monitors"
+  - option "Printers"
+  - option "Scanners"
+  - option "Web Cameras"
+  - option "Tablets"
+  - option "Software"
+  - option "Phones & PDAs"
+  - option "Cameras"
+  - option "MP3 Players"
+- button "Search"
+- checkbox "Search in subcategories" [disabled]
+- text: Search in subcategories
+- checkbox "Search in product descriptions"
+- text: Search in product descriptions
+- button ""
+- button ""
+- link "Product Compare (0)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/compare
+- text: "Show:"
+- combobox "Show:":
+  - option "15" [selected]
+  - option "25"
+  - option "50"
+  - option "75"
+  - option "100"
+- text: "Sort By:"
+- combobox "Sort By:":
+  - option "Default" [selected]
+  - option "Best sellers"
+  - option "Popular"
+  - option "Newest"
+  - option "Name (A - Z)"
+  - option "Name (Z - A)"
+  - option "Price (Low > High)"
+  - option "Price (High > Low)"
+  - option "Rating (Highest)"
+  - option "Rating (Lowest)"
+  - option "Model (A - Z)"
+  - option "Model (Z - A)"
+- link "iPhone iPhone iPhone iPhone":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=40&search=iPhone
+  - img "iPhone"
+  - list:
+    - listitem:
+      - img "iPhone"
+    - listitem:
+      - img "iPhone"
+    - listitem:
+      - img "iPhone"
+- button ""
+- button ""
+- button ""
+- button ""
+- heading "iPhone" [level=4]:
+  - link "iPhone":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=40&search=iPhone
+- text: $123.20
+- link "iPhone iPhone iPhone iPhone":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=55&search=iPhone
+  - img "iPhone"
+  - list:
+    - listitem:
+      - img "iPhone"
+    - listitem:
+      - img "iPhone"
+    - listitem:
+      - img "iPhone"
+- button ""
+- button ""
+- button ""
+- button ""
+- heading "iPhone" [level=4]:
+  - link "iPhone":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=55&search=iPhone
+- text: $123.20
+- link "iPhone iPhone iPhone iPhone":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=78&search=iPhone
+  - img "iPhone"
+  - list:
+    - listitem:
+      - img "iPhone"
+    - listitem:
+      - img "iPhone"
+    - listitem:
+      - img "iPhone"
+- button ""
+- button ""
+- button ""
+- button ""
+- heading "iPhone" [level=4]:
+  - link "iPhone":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=78&search=iPhone
+- text: $123.20
+- link "iPhone iPhone iPhone iPhone":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=79&search=iPhone
+  - img "iPhone"
+  - list:
+    - listitem:
+      - img "iPhone"
+    - listitem:
+      - img "iPhone"
+    - listitem:
+      - img "iPhone"
+- button ""
+- button ""
+- button ""
+- button ""
+- heading "iPhone" [level=4]:
+  - link "iPhone":
+    - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/product&product_id=79&search=iPhone
+- text: $123.20 Showing 1 to 4 of 4 (1 Pages)
+- heading "Filter" [level=3]
+- text: Price 
+- spinbutton "Minimum Price": "123"
+- text: to
+- spinbutton "Maximum Price": "123"
+- text: Manufacturer 
+- img "Apple"
+- text: Apple 4 Search 
+- textbox "Search"
+- text: Color 
+- img "Blue"
+- text: Availability 
+- checkbox "In stock"
+- text: In stock 2
+- checkbox "Out Of Stock"
+- text: Out Of Stock 2 Discount 
+- radio "10% off or more" [disabled]
+- text: 10% off or more 0
+- radio "20% off or more" [disabled]
+- text: 20% off or more 0
+- radio "30% off or more" [disabled]
+- text: 30% off or more 0
+- radio "40% off or more" [disabled]
+- text: 40% off or more 0
+- radio "50% off or more" [disabled]
+- text: 50% off or more 0 Rating 
+- radio "     & up" [disabled]
+- text:      & up 0
+- radio "     & up" [disabled]
+- text:      & up 0
+- radio "     & up" [disabled]
+- text:      & up 0
+- radio "     & up" [disabled]
+- text:      & up 0
+- link "Desktops (75)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=20
+- link "Laptops (75)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=18
+- link "Components (75)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=25
+- link "Tablets (75)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=57
+- link "Software (75)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=17
+- link "Phones & PDAs (75)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=24
+- link "Cameras (75)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=33
+- link "MP3 Players (75)":
+  - /url: https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=34
+- contentinfo:
+  - paragraph: © LambdaTest - Powered by OpenCart
+```

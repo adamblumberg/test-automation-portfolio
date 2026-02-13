@@ -10,7 +10,7 @@ test.describe('Basic Site Navigation', () => {
   test('should open the homepage', async ({ page }) => {
     await expect(page).toHaveURL(/ecommerce/);
     await expect(page.locator('header')).toBeVisible();
-    await expect(page.locator('input[name="search"]')).toBeVisible();
+    await expect(page.locator('input[name="search"]').first()).toBeVisible();
   });
 
   // Navigation Tests

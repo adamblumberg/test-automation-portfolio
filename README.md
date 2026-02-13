@@ -2,6 +2,19 @@
 
 > **Multi-framework test automation showcase demonstrating comprehensive UI and API testing capabilities**
 
+## 📊 Current Status & Recent Improvements
+
+### ✅ Recent Fixes Applied
+- **Configuration Issue Resolved**: Fixed Playwright test discovery (testDir path corrected)
+- **Strict Mode Violations Fixed**: Updated search input selectors in critical test files
+- **HomepageLoad Tests**: Now fully passing (3/3 tests)
+- **Selector Improvements**: Enhanced element targeting for better test stability
+
+### 🔧 Test Results Summary
+- **Configuration**: ✅ Working
+- **Basic Functionality**: ✅ Core tests passing
+- **Advanced Features**: ⚠️ In progress (see [TEST_IMPROVEMENTS.md](./TEST_IMPROVEMENTS.md) for details)
+
 ## 🎯 Overview
 This portfolio demonstrates proficiency across multiple testing frameworks and approaches, implementing identical test scenarios to showcase framework-agnostic testing skills and best practices.
 

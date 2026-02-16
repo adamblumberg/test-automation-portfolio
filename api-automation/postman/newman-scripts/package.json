@@ -9,6 +9,8 @@
     "test:staging": "newman run ../collections/*.json -e ../environments/staging.json", 
     "test:ecommerce": "newman run ../collections/ecommerce-api.json -e ../environments/staging.json",
     "test:auth": "newman run ../collections/authentication.json -e ../environments/staging.json",
+    "test:trello": "newman run \"../collections/Trello API.postman_collection.json\" -e ../environments/trello-testing.json --reporters cli,html,json --reporter-html-export ../reports/trello-api-report.html --reporter-json-export ../reports/trello-api-results.json",
+    "test:trello-script": "node run-trello-tests.js",
     "generate-reports": "newman run ../collections/*.json -e ../environments/staging.json --reporters html,json --reporter-html-export ../reports/api-report.html --reporter-json-export ../reports/api-results.json"
   },
   "keywords": [

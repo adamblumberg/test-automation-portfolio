@@ -1,0 +1,24 @@
+{
+  "id": "trello-testing-env",
+  "name": "Trello Testing Environment",
+  "values": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.trello.com",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "trelloKey",
+      "value": "YOUR_TRELLO_KEY_HERE",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "trelloToken",
+      "value": "YOUR_TRELLO_TOKEN_HERE",
+      "type": "secret",
+      "enabled": true
+    }
+  ]
+}

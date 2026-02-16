@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+    
+    environment {
+        POSTMAN_API_KEY = credentials("postman-api-key")
+    }
+
+    stages {
+        stage('Running collection') {
+            steps {
+                sh 'newman --version'
+                sh 'newman run https://api.postman.com/collections/51710419-3bc31dbb-fc12-409f-9f1a-3752c4672ff8?apikey=$POSTMAN_API_KEY --reporters cli,htmlextra,junit --reporter-htmlextra-export newman/report.html --reporter-junit-export newman/report.xml'
+            }
+        }
+    }
+    
+        post {
+        always {
+            publishHTML target: [
+                reportName: 'Newman',
+                reportDir: 'newman',
+                reportFiles: 'report.html',
+                reportTitles: 'Postman API tests',
+                keepAll: true,
+                alwaysLinkToLastBuild: true,
+                allowMissing: false
+            ]
+            junit 'newman/report.xml'
+        }
+    }
+}

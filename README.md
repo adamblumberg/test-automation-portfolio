@@ -2,18 +2,25 @@
 
 > **Multi-framework test automation showcase demonstrating comprehensive UI and API testing capabilities**
 
-## 📊 Current Status & Recent Improvements
+## 📊 Current Status & Latest Additions
 
-### ✅ Recent Fixes Applied
-- **Configuration Issue Resolved**: Fixed Playwright test discovery (testDir path corrected)
-- **Strict Mode Violations Fixed**: Updated search input selectors in critical test files
-- **HomepageLoad Tests**: Now fully passing (3/3 tests)
-- **Selector Improvements**: Enhanced element targeting for better test stability
+### 🚀 New: Production-Ready API Testing & CI/CD
+- **✅ Complete Trello API Test Suite** - Full CRUD operations with comprehensive validations
+- **✅ Jenkins CI/CD Pipeline** - Automated testing with secure credential management
+- **✅ Professional Reporting** - HTML Extra and JUnit integration
+- **✅ Newman Automation** - Local and CI/CD execution scripts
 
-### 🔧 Test Results Summary
-- **Configuration**: ✅ Working
-- **Basic Functionality**: ✅ Core tests passing
-- **Advanced Features**: ⚠️ In progress (see [TEST_IMPROVEMENTS.md](./TEST_IMPROVEMENTS.md) for details)
+### ✅ UI Testing Framework Status
+- **Configuration**: ✅ All frameworks properly configured
+- **Core Functionality**: ✅ Homepage, navigation, and search tests passing
+- **Cross-Framework Parity**: ✅ Identical test scenarios implemented
+- **Reporting**: ✅ Comprehensive HTML reports and screenshots
+
+### 🎯 Portfolio Highlights
+- **Enterprise-Grade CI/CD** - Real Jenkins pipeline with production practices
+- **API Testing Excellence** - Complete E2E workflow testing
+- **Multi-Framework Expertise** - 4 UI frameworks + API automation
+- **Security Best Practices** - Secure credential management and placeholder values
 
 ## 🎯 Overview
 This portfolio demonstrates proficiency across multiple testing frameworks and approaches, implementing identical test scenarios to showcase framework-agnostic testing skills and best practices.
@@ -26,16 +33,19 @@ This portfolio demonstrates proficiency across multiple testing frameworks and a
 - **[Selenium with Java](ui-automation/selenium-java/)** - Enterprise-grade automation using TestNG and Maven
 - **[Selenium with JavaScript](ui-automation/selenium-javascript/)** - WebDriver automation with Node.js and Mocha
 
-### API Testing
-- **[Postman Collections](api-automation/postman/)** - REST API testing, validation, and automation
-- **Newman Integration** - Command-line execution and CI/CD pipeline ready
+### API Testing & CI/CD
+- **[Postman Collections](api-automation/postman/)** - Production Trello API test suite with E2E workflow
+- **[Jenkins Pipeline](api-automation/postman/Jenkinsfile)** - Automated CI/CD with secure credentials and reporting
+- **Newman Integration** - Local execution scripts and CI/CD automation
+- **Professional Reporting** - HTML Extra reports with detailed test analytics
 
 ### Languages & Tools
-- **Languages:** JavaScript, Java
-- **Build Tools:** Maven, npm
-- **Test Runners:** TestNG, Mocha, Cypress, Playwright
-- **Reporting:** HTML reports, JSON outputs, screenshots
-- **CI/CD Ready:** GitHub Actions, Jenkins compatible
+- **Languages:** JavaScript, Java, Groovy (Jenkins Pipeline)
+- **Build Tools:** Maven, npm, Newman
+- **Test Runners:** TestNG, Mocha, Cypress, Playwright, Newman
+- **Reporting:** HTML reports, JSON outputs, JUnit XML, screenshots, HTMLExtra
+- **CI/CD:** ✅ **Active Jenkins Pipeline**, GitHub Actions compatible
+- **DevOps:** Secure credential management, automated test publishing
 
 ## 📂 Portfolio Structure
 
@@ -46,11 +56,12 @@ This portfolio demonstrates proficiency across multiple testing frameworks and a
 │   ├── selenium-java/        # Enterprise Java automation  
 │   └── selenium-javascript/  # JavaScript WebDriver implementation
 ├── api-automation/
-│   └── postman/             # API testing and validation
-│       ├── collections/     # Test collection files
-│       ├── environments/    # Environment configurations
-│       ├── test-data/      # API test data and fixtures
-│       └── reports/        # API test execution reports
+│   └── postman/                    # Complete API testing solution
+│       ├── Jenkinsfile            # Production CI/CD pipeline
+│       ├── collections/           # Trello API test collection
+│       ├── environments/          # Secure environment configurations  
+│       ├── newman-scripts/        # Automation and execution scripts
+│       └── reports/               # HTML and JUnit test reports
 ├── test-reports/           # All test execution reports
 ├── documentation/          # Setup guides and best practices
 └── README.md              # This file
@@ -85,12 +96,15 @@ All frameworks implement identical test scenarios for direct comparison:
 - Search result validation
 - "No results" scenarios
 
-### API Testing Coverage
-- **Authentication:** Login, logout, token validation
-- **User Management:** CRUD operations, profile updates
-- **Product Catalog:** Inventory queries, search APIs
-- **Shopping Cart:** Add/remove items, quantity updates
-- **Order Processing:** Checkout, payment validation
+### 🚀 API Testing Coverage (Production Implementation)
+**Trello API Complete Workflow:**
+- **🔐 Authentication:** Secure API key and token management
+- **📋 Board Management:** Create, read, update, delete operations
+- **📝 List Operations:** TODO and DONE list creation and validation
+- **🎯 Card Management:** Create cards, move between lists, validate states
+- **❌ Error Handling:** 404 validation, negative testing scenarios
+- **🔄 E2E Workflow:** Full board-to-completion testing cycle
+- **📊 Quality Assurance:** Comprehensive assertions and response validation
 
 ## 🚀 Quick Start
 
@@ -139,11 +153,19 @@ npm test                              # Run all tests
 npm run test:ecommerce               # Run e-commerce tests only
 ```
 
-**API Tests (Postman with Newman):**
+**API Tests (Trello Collection with Newman):**
 ```bash
 cd api-automation/postman/newman-scripts
 npm install newman -g
-newman run ../collections/ecommerce-api.json -e ../environments/staging.json
+
+# Run Trello API collection
+newman run "../collections/Trello API.postman_collection.json" -e ../environments/trello-testing.json
+
+# Run with enhanced HTML reports
+npm run test:trello
+
+# Use automation script
+node run-trello-tests.js
 ```
 
 ## 📊 Test Reports & Results
@@ -176,12 +198,25 @@ View sample reports: [test-reports/](test-reports/)
 
 ## 🔄 CI/CD Integration
 
-This portfolio is designed for seamless CI/CD integration:
+### ✅ **Active Jenkins Pipeline** 
+This portfolio includes a **production-ready Jenkins pipeline** currently running:
 
+- **✅ Live Jenkins Pipeline** - [`Jenkinsfile`](api-automation/postman/Jenkinsfile) with real implementation
+- **🔒 Secure Credential Management** - API keys stored in Jenkins credential store  
+- **📊 Automated Reporting** - HTML Extra and JUnit report publishing
+- **🚀 One-Click Execution** - Direct collection execution from Postman API
+- **📈 Test Result Tracking** - Historical data and trend analysis
+
+### 🛠️ **Pipeline Features:**
+- **Environment Setup** with Newman version verification
+- **Direct API Execution** from Postman cloud (collection ID: `3bc31dbb-fc12-409f-9f1a-3752c4672ff8`)
+- **Enhanced HTML Reports** with detailed test analytics
+- **JUnit Integration** for Jenkins test result tracking
+- **Build Artifact Management** with automatic report publishing
+
+### 🔧 **Additional CI/CD Ready:**
 - **GitHub Actions** workflow templates
-- **Jenkins** pipeline compatibility
-- **Docker** containerization ready
-- **Parallel execution** for faster feedback
+- **Docker** containerization ready  
 - **Multiple reporting formats** for different stakeholders
 
 ## 📈 Performance & Metrics
@@ -209,9 +244,10 @@ For questions about implementation details or to discuss automation strategies, 
 ---
 
 **🎯 Portfolio Highlights:**
-- ✅ Multiple framework expertise
-- ✅ Consistent test scenarios across frameworks  
-- ✅ Professional code organization
-- ✅ Comprehensive reporting
-- ✅ CI/CD integration ready
-- ✅ Industry best practices
+- ✅ **Production Jenkins CI/CD** - Real automation pipeline in action
+- ✅ **Complete API Test Suite** - Full Trello API workflow testing
+- ✅ **Multi-Framework Expertise** - 4 UI frameworks + API automation
+- ✅ **Enterprise Security** - Secure credential management practices
+- ✅ **Professional DevOps** - Automated testing, reporting, and deployment
+- ✅ **Comprehensive Documentation** - Setup guides, API integration, and best practices
+- ✅ **Industry Best Practices** - Clean code, proper structure, real-world implementations
